@@ -17,3 +17,8 @@ Here's a breakdown of the code:
 - The loop continues until the user presses the 'Esc' key. 9. Finally, the video capture object is released, and all windows are closed.
 In summary, this code demonstrates how to use the OpenCV library and the YOLOv8 object detection model to perform real-time object detection on a video stream, with the ability to display bounding boxes, class labels, FPS, and inference time.
 
+# Commands for Building the Application: 
+- mkdir build
+- cd build
+- cmake ..
+- ./YoloV8
