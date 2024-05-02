@@ -1,4 +1,4 @@
-# YoloV8-CPP-Onnx-OpenCVDnn
+# YoloV8.cpp
 
 This C++ code is using the OpenCV library to perform object detection on a video stream using the YOLOv8 object detection model. 
 Here's a breakdown of the code: 
