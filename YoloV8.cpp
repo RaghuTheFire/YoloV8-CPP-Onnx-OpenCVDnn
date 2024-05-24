@@ -79,8 +79,8 @@ vector<Mat> pre_process(Mat& input_image, Net& net)
     net.setInput(blob);
     vector<Mat> outputs;
     if (!blob.empty()) 
-	{
-        net.forward(outputs, net.getUnconnectedOutLayersNames());
+    {
+      net.forward(outputs, net.getUnconnectedOutLayersNames());
     }
 
     return outputs;
