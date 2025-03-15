@@ -53,7 +53,7 @@ std::vector<std::string> load_class_list()
 /******************************************************************************************************************/
 void load_net(cv::dnn::Net& net, bool is_cuda)
 {
-    auto result = cv::dnn::readNet("yolov8s.onnx");
+    auto result = cv::dnn::readNet("yolov8.onnx");
 
     if (is_cuda)
     {
